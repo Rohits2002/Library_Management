@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/Images/BGI.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(250, 163, 3);
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: wheat;
+  }
+  
+  form {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: red;
+  }
+  
+  #search-bar input {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-list {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .book-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .book-card p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
